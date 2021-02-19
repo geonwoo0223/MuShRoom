@@ -1,28 +1,31 @@
 <template>
   <v-app>
-    <Nav/>
-    <v-main>
+    <v-main class="overflow-x-auto">
       <router-view/>
     </v-main>
-    <Footer/>
   </v-app>
 </template>
 
-<script lang="ts">
-import Vue from 'vue';
-import Nav from './components/common/Nav.vue';
-import Footer from './components/common/Footer.vue';
+<script>
 
-export default Vue.extend({
+import "@/assets/css/myStyle.css"
+
+export default {
   name: 'App',
-
-  components: {
-    Nav,
-    Footer
-  },
-
-  data: () => ({
-    //
-  }),
-});
+};
 </script>
+
+<style>
+@font-face {
+  font-family: 12롯데마트드림;
+  src: local(※), url('/fonts/12롯데마트드림Light.tff') format('truetype');
+}
+#app {
+  font-family: '12롯데마트드림Light', sans-serif;
+  color: rgba(255, 255, 255, 0.733);
+}
+
+.v-btn--active.no-active::before {
+  opacity: 0 !important;
+}
+</style>

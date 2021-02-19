@@ -1,0 +1,143 @@
+.main-color {
+  background-color: rgb(30, 30, 30) !important;
+}
+
+.main-color-light {
+  background-color: rgb(45, 45, 45) !important;
+}
+
+.component-color {
+  background-color: rgb(50, 50, 50) !important;
+}
+
+.smallcomponent-color {
+  background-color: rgb(61, 61, 61) !important;
+}
+
+/* 
+html {
+  overflow-y: hidden !important;
+} */
+
+body {
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  /* 스크롤 크기 */
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  /* 스크롤 배경색 */
+  background-color: #252526;
+}
+
+::-webkit-scrollbar-thumb {
+  /* 스크롤 색 */
+  background: #ffffffbb;
+  border-radius: 10px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  /* 스크롤 색 */
+  background: #00ff0000 !important;
+}
+
+::-webkit-scrollbar-button {
+  /* 스크롤 화살표 버튼 없앰 */
+  display: none;
+}
+
+.home_background {
+  background-color: #252526 !important;
+  height: 100%;
+}
+
+p {
+  color: #ffffffbb;
+  letter-spacing: 1.5px;
+}
+
+span {
+  color: #ffffffbb;
+  letter-spacing: 1.5px;
+}
+
+.text-color {
+  color: #ffffffbb !important;
+}
+
+.medium {
+  font-size: 16px !important;
+}
+
+.large {
+  font-size: 20px !important;
+}
+
+.Vue-Toastification__toast--default.toastAdd {
+  background-color: rgba(28, 175, 255, 0.884);
+}
+
+.Vue-Toastification__toast--default.toastDelete {
+  background-color: rgba(255, 50, 50, 0.767);
+}
+
+.Vue-Toastification__toast--default.toastMove {
+  background-color: rgba(50, 205, 50, 0.493);
+}
+
+.wrap4 {
+  letter-spacing: 1.5px;
+  white-space: nowrap;
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  width: 100%;
+}
+
+.wrap3 {
+  letter-spacing: 1.5px;
+  white-space: nowrap;
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  width: 100%;
+}
+
+.wrap2 {
+  display: inline-block;
+  width: 100%;
+}
+
+.wrap3:hover,
+.wrap2:hover {
+  width: auto;
+}
+
+.wrap2:hover .wrap3 {
+  animation: scroll 10s;
+}
+
+.wrap1 {
+  width: 200px;
+  overflow: hidden;
+}
+
+.wrap1-long {
+  width: 560px;
+  overflow: hidden;
+}
+
+@keyframes scroll {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: -100%;
+  }
+}
