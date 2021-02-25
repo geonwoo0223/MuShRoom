@@ -11,7 +11,7 @@
     <img src="https://img.shields.io/badge/language-java%2C javascript-yellowgreen">
     <img src="https://img.shields.io/badge/swagger-valid-brightgreen">
 </div>
-<img src="images/page_main.JPG" align=center>
+<img src="images/page_main.png" align=center>
 
 <h3 align=center><a href="document/DEMO.md">DEMO 바로가기</a></h3>
 <h3 align=center><a href="https://youtu.be/tgc0P9LF5UU">UCC 바로가기</a></h3>
@@ -274,7 +274,7 @@ docker run --network my-net -v <특정 경로>/files/:/home/files/  --name backe
 ### branch
 
 ```bash
-(master) -> (develop) -> (feature/frontend(backend/feature명)
+(master) -> (develop) -> (feature/frontend(backend)/feature명)
 ```
 
 * master : 배포 가능한 상태로 유지
@@ -284,7 +284,7 @@ docker run --network my-net -v <특정 경로>/files/:/home/files/  --name backe
 ### commit
 
 ```bash
-Commit 메시지는 행위:  + 파일명, 내용은 파일경로 + 설명으로 구성
+Commit 메시지는 행위: 설명, 내용은 파일명: 상세 작업 내용으로 구성
     예시]
         Modify : MusicBoard.vue
         - frontend/src/components/MusicBoard.vue : 재생 버튼 수정
