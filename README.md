@@ -1,5 +1,4 @@
 
-
 <h1 align=center>A105 - MuShRoom</h1>
 
 <div align=center>
@@ -11,7 +10,7 @@
     <img src="https://img.shields.io/badge/language-java%2C javascript-yellowgreen">
     <img src="https://img.shields.io/badge/swagger-valid-brightgreen">
 </div>
-<img src="images/page_main.JPG" align=center>
+<img src="images/page_main.png" align=center>
 
 <h3 align=center><a href="document/DEMO.md">DEMO 바로가기</a></h3>
 <h3 align=center><a href="https://youtu.be/tgc0P9LF5UU">UCC 바로가기</a></h3>
