@@ -1,10 +1,7 @@
 <h1 align="center"> 🎶 MuShRoom 🎶</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-    <img alt="axios" src="https://img.shields.io/badge/axios-0.21.1-red.svg?cacheSeconds=2592000" />
-  <a href="#" target="_blank">
+    <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
     <img alt="License: license?" src="https://img.shields.io/badge/License-license?-yellow.svg" />
-  </a>
 </p>
 
 > 언택트 음악 공유 플랫폼
@@ -18,9 +15,14 @@
 <img src="https://img.shields.io/badge/Vue-4FC08D?style=flat-square&logo=Vue.js&logoColor=white"/>
 <img src="https://img.shields.io/badge/Vuetify-1867C0?style=flat-square&logo=Vuetify&logoColor=white"/>
 <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=MongoDB&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/NGINX-269539?style=flat-square&logo=NGINX&logoColor=white"/>
+<img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=JavaScript&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript -F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/>
+
 </p>
 
----
+
 
 <br>
 
@@ -32,7 +34,6 @@
 
 <br>
 
------
 ## 개발 목적
 
 -  코로나로 인한 비대면 상황에서도 다른 사람들과 자유롭게 음악을 만들고 공유하는 플랫폼 구현
@@ -60,6 +61,10 @@ npm install
 npm run serve
 ```
 -----------------
+
+## 동작화면
+
+
 ## Author
 
 👤 **수림 연욱 건호 건우 병희 지환**
