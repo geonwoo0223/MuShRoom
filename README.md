@@ -1,6 +1,6 @@
 
 
-<h1 align=center>A105 - MuShRoom</h1>
+<h1>A105 - MuShRoom</h1>
 
 <div align=center>
     <img src="https://img.shields.io/badge/platform-web-green">
@@ -13,14 +13,15 @@
 </div>
 <img src="images/page_main.png" align=center>
 
-<h3 align=center><a href="document/DEMO.md">DEMO 바로가기</a></h3>
-<h3 align=center><a href="https://youtu.be/tgc0P9LF5UU">UCC 바로가기</a></h3>
+<h3><a href="document/DEMO.md">DEMO 바로가기</a></h3>
+<h3><a href="https://youtu.be/tgc0P9LF5UU">UCC 바로가기</a></h3>
 
-<div align=center>
+<div>
   	Musician 링크에서 다른 사용자들과 함께 다양한 멜로디를 추가하고, 이펙트를 주어 완성도 높은 음악을 만들 수 있습니다.<br>
     실시간 채팅으로 의견을 공유하고 완성된 결과물은 Audience 링크로 공유해 사람들에게 들려주면서,<br>
     음악으로 하나되는 순간을 경험해보세요
 </div>
+
 
 
 ## :book: 목차
@@ -133,13 +134,13 @@ docker network create my-net
 ```
 Docker의 defalt bridge는 컨테이너간 자동 DNS resolution을 제공하지 않기 때문에,  
 Custom bridge를 생성한다.  
-  
+
 - 데이터베이스 설치, 실행
 ```bash
 docker run --name mongo-db -d --network my-net mongo
 ```
 필요할 경우 /data/db 경로(실제 데이터 저장 경로)를 외부 경로에 바인딩한다.
-  
+
 - 프론트엔드 설정 파일 생성
 ```javascript
 // frontend/src/store/Config.js
@@ -150,7 +151,7 @@ class Config {
 
 export default Config
 ```
-  
+
 - 프론트엔드 빌드
 ```bash
 cd s04p13a105/frontend
@@ -164,7 +165,7 @@ docker run -p 80:80 -p 443:443 --network my-net -v /<Vue dist 디렉토리>:/hom
 ```
 위의 예시는 SSL 설정이 되어있는 nginx.conf 파일을 필요로 한다.  
 필요할 경우 nginx.conf 파일 수정하여 Dockerfile 생성  
-  
+
 - nginx.conf 예시
 ```
 user       nginx;  ## Default: nobody
