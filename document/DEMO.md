@@ -2,7 +2,7 @@
 
 > Mush Room의 메인 페이지 입니다.
 
-![메인 페이지](../frontend/src/assets/help/mushroom.png)
+![메인 페이지](../frontend/src/assets/mushroom.png)
 
 
 ## :book: 목차
